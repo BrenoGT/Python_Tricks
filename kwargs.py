@@ -17,10 +17,8 @@ def main():
     list1 = [1, 2, 3]
     list2 = [4, 5]
     list3 = [6, 7, 8, 9]
-    result_values = concatenate_values(a="Real", b="Python", c="Is", d="Great", e="!")
-    result_keys = concatenate_keys(a="Real", b="Python", c="Is", d="Great", e="!")
-    print(result_values)
-    print(result_keys)
+    print(concatenate_values(a="Real", b="Python", c="Is", d="Great", e="!"))
+    print(concatenate_keys(a="Real", b="Python", c="Is", d="Great", e="!"))
 
 
 if __name__ == '__main__':
